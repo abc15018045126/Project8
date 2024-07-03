@@ -21,22 +21,7 @@ namespace Project8
     {
         private static readonly System.IntPtr NativeFieldInfoPtr_autoBirthItem;
 
-        public unsafe int autoBirthItem2
-        {
-            get
-            {
-                nint num = (nint)IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase)(object)this) + (int)IL2CPP.il2cpp_field_get_offset(NativeFieldInfoPtr_autoBirthItem);
-                return *(int*)num;
-                Debug.WriteLine(num);
-            }
-            set
-            {
-                
-                *(int*)((nint)IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase)(object)this) + (int)IL2CPP.il2cpp_field_get_offset(NativeFieldInfoPtr_autoBirthItem)) = value;
-                int autoBirthItemvalue = value;
-                Debug.WriteLine(autoBirthItemvalue);
-            }
-        }
+
 
 
 
@@ -57,10 +42,7 @@ namespace Project8
             {
 
                 *(int*)((nint)IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase)(object)this) + (int)IL2CPP.il2cpp_field_get_offset(NativeFieldInfoPtr_autoBirthItem)) = value;
-                int autoBirthItemvalue = value;
-                Debug.WriteLine(autoBirthItemvalue);
-                autoBirthItemvalue = 1;
-                Debug.WriteLine(autoBirthItemvalue);
+
             }
         }
     }
