@@ -42,7 +42,7 @@ namespace Project8
             {
 
                 *(int*)((nint)IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase)(object)this) + (int)IL2CPP.il2cpp_field_get_offset(NativeFieldInfoPtr_autoBirthItem)) = value;
-                int a =10713;
+                int a =10714;
                 a=value;
             }
         }
